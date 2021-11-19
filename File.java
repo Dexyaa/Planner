@@ -1,12 +1,12 @@
 import java.io.*;
 public class File {
-    public static String separator;
 
-    public void reader(){
+
+    public void reader(String path){
 
     }
 
-    public void writer(){
+    public void writer(String path){
 
     }
 }
