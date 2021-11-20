@@ -1,9 +1,14 @@
 import java.io.File;
-public class Main {
-    public static String directory = System.getProperty("user.home");
+public class Main extends File{
+
+
     public static String fileName = "homework.txt";
-    public static String absolutePath = directory + File.separator + fileName;
+    public static String absolutePath = fileName;
     public static void main(String[] args){
+        Main obj = new Main();
 
     }
+
+
+
 }
